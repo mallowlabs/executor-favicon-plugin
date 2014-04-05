@@ -3,6 +3,8 @@ Jenkins Executor Favicon Plugin
 
 This plugin adds busy executor count to Jenkins favicon.
 
+![Jenkins Executor Favicon Plugin](https://raw.github.com/mallowlabs/executor-favicon-plugin/master/jenkins-favicon.png)
+
 Author
 ---------------
 * @mallowlabs
