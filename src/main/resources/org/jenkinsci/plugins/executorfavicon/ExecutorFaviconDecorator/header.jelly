@@ -1,0 +1,15 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <script type="text/javascript" src="${rootURL}/plugin/executor-favicon/js/tinycon.js"></script>
+  <script type="text/javascript">
+(function(document, window, undefined){
+    window.setInterval(function() {
+        new Ajax.Request("${rootURL}/computer/api/json", {
+            onSuccess: function(resp) {
+                Tinycon.setOptions({ background: '#19448e' });
+                Tinycon.setBubble(resp.responseJSON.busyExecutors);
+            }
+        });    
+    }, 10000);
+})(document, window);
+  </script>
+</j:jelly>
