@@ -2,5 +2,5 @@
   This view is used to render the installed plugins page.
 -->
 <div>
-  This plugin adds busy executor count to Jenkins favicon.
+  This plugin adds busy executor count indicator to Jenkins favicon.
 </div>
