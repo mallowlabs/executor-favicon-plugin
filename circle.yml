@@ -1,7 +1,0 @@
-machine:
-  java:
-    version: openjdk7
-general:
-  artifacts:
-    - "target/executor-favicon.hpi"
-
