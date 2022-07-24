@@ -1,4 +1,4 @@
-Jenkins Executor Favicon Plugin ![build status](https://circleci.com/gh/mallowlabs/executor-favicon-plugin/tree/master.svg?style=shield)
+Jenkins Executor Favicon Plugin
 =======================================
 
 This plugin adds busy executor count indicator to Jenkins favicon.
